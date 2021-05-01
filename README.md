@@ -1,14 +1,6 @@
 # wediki: data
 
-## Installation
-
 ## Usage
-
-## Support
-Feel free to create a issue: [https://github.com/Claythve/wediki-data/issues](https://github.com/Claythve/wediki-data/issues)
-
-## Contributing
-Create issues and pull requests as you wish
 
 ## License
     wediki-data
