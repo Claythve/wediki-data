@@ -9,7 +9,7 @@ $C#
 </md>
 
 <js>
-const tableColumns = [directive, meaning, example];
+const tableColumns = ["directive", "meaning", "example"];
 
 const tables = [
     {
