@@ -4,7 +4,7 @@
 
 ## License
     wediki-data
-    Copyright (C) 2021 Claythve and dxstiny
+    Copyright (C) 2021 dxstiny and Claythve
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
