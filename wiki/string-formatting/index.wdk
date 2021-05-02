@@ -1,17 +1,17 @@
 <md>
 # String-Formatting
 ## Python
-$Python
+$T$Python
 ## JavaScript
-$JavaScript
+$T$JavaScript
 ## C#
-$C#
+$T$C#
 </md>
 
 <js>
 const tableColumns = ["directive", "meaning", "example"];
 
-const tables = [
+tables = [
     {
         title: "Python",
         columns: [...tableColumns],
