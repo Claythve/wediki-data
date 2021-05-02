@@ -1,11 +1,11 @@
 <md>
 # String-Formatting
 ## Python
-$table1
+$Python
 ## JavaScript
-$table2
+$JavaScript
 ## C#
-$table3
+$C#
 </md>
 
 <js>
