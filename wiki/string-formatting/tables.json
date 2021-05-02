@@ -1,5 +1,5 @@
-{
-    "table1": {
+[
+    {
         "title": "Python",
         "columns": ["Directive", "Meaning", "Example"],
         "data": [{
@@ -132,11 +132,11 @@
             "example": "%"
         }]
     },
-    "table2": {
+    {
         "title": "JavaScript",
         "columns": ["Directive", "Meaning", "Example"]
     },
-    "table3": {
+    {
         "title": "C#",
         "columns": ["Directive", "Meaning", "Example"],
         "data": [{
@@ -157,4 +157,4 @@
             "example": "Monday, Tuesday, Wednesday"
         }]
     }
-}
+]
