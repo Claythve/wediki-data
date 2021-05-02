@@ -1,11 +1,13 @@
 <md>
 # Linux Terminal
 
-## GIT
+<details>
+<summary>GIT</summary>
 [Tutorial](https://git-scm.com/docs/gittutorial)
 
 ### Creating a remote Repository and adding files from local project to it
 Create Empty Git Repository (e.g. on remote location)
 
 `git init --bare`
+</details>
 </md>
