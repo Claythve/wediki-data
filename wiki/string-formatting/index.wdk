@@ -11,8 +11,8 @@ $table3
 <js>
 const tableColumns = [directive, meaning, example];
 
-const tables = {
-    table1: {
+const tables = [
+    {
         title: "Python",
         columns: [...tableColumns],
         data: [{
@@ -145,12 +145,12 @@ const tables = {
             example: "%"
         }]
     },
-    table2: {
+    {
         title: "JavaScript",
         columns: [...tableColumns],
         data: []
     },
-    table3: {
+    {
         title: "C#",
         columns: [...tableColumns],
         data: [{
@@ -171,5 +171,5 @@ const tables = {
             example: "Monday, Tuesday, Wednesday"
         }]
     }
-}
+]
 </js>
