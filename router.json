@@ -2,8 +2,11 @@
   {
     "name": "Wiki",
     "subitems": [{
-        "name": "String-Formatting",
+        "name": "String Formatting",
         "data": "wiki/string-formatting"
+      }, {
+        "name": "Linux Terminal",
+        "data": "wiki/linux-terminal"
       }]
   },
   {
