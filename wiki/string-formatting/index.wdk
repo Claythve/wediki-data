@@ -2,34 +2,17 @@
 # String-Formatting
 ## Python
 ```python
-from argparse import ArgumentParser
-
-if __name__ == "__main__":
-    print("Hello World")
+datetime.now().strftime()
 ```
 $T$Python
 ## JavaScript
 ```typescript
-function main(arg: string)
-{
-    console.log(arg);
-}
+// not available yet
 ```
 $T$JavaScript
 ## C#
 ```csharp
-using System.IO;
-
-namespace Test
-{
-    public class Main
-    {
-        public Main()
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+DateTime.Now.ToString()
 ```
 $T$C#
 </md>
