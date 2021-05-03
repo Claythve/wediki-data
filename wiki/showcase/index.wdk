@@ -62,7 +62,7 @@ tables = [
             directive: "%a",
             meaning: "Abbreviated weekday name.",
             example: "Sun, Mon, ..."
-        }
+        }]
     }
 ]
 </js>
