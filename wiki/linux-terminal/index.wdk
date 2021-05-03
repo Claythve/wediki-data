@@ -2,6 +2,31 @@
 # Linux Terminal
 
 <details>
+<summary>Flash</summary>
+1) unmount (aus /media/)
+
+2a) *.img or *.iso
+
+Input:
+`file.img`
+
+Output: (Stick-Bezeichnung finden mit lsblk)
+`/dev/mmcblk0`
+
+`sudo dd if=./file.img of=/dev/mmcblk0 bs=4k status=progress`
+2b) *.sdimg.gz
+
+Input:
+`vcl-image-port1-4p.sdimg.gz`
+
+Output: (Stick-Bezeichnung finden mit lsblk)
+`/dev/mmcblk0`
+
+
+`zcat vcl-image-port1-4p.sdimg.gz | sudo dd of=/dev/mmcblk0 bs=4k status=progress`
+</details>
+
+<details>
 <summary>GIT</summary>
 [Tutorial](https://git-scm.com/docs/gittutorial)
 
