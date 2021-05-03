@@ -1,0 +1,68 @@
+<md>
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+
+Normal paragraphs are also supported
+
+`one line code snippets`
+
+```csharp
+using System;
+
+namespace ShowCase
+{
+  public class ShowCase()
+  {
+    public ShowCase()
+    {
+      Console.WriteLine("Or Syntax Highlighted Multi Line Code Blocks!"); // used in markdown-manner, coloured in VS Code style
+    }
+  }
+}
+```
+
+[Links](https://google.com/)
+
+## And Special Flair:
+$INFO$I'm informative
+$SUCCESS$I show success
+$WARN$I warn the user
+$ERROR$I show an error
+
+### Even with notifications!
+$!INFO$I'm an informative text and notification
+$!SUCCESS$Works with success-messages too
+$!WARN$And with warnings
+$!ERROR$And with errors as well
+
+## Add tables
+$T$Table1
+
+<details>
+<summary>Provide Additional Information</summary>
+If you have something to hide for example.
+
+`one-line code blocks work here`
+$INFO$And Special Flair
+[or link your favourite websites](https://tink.ga/)
+</details>
+</md>
+<js>
+const tableColumns = ["directive", "meaning", "example"];
+
+// don't change the variable name and don't worry about declaring that variable
+tables = [
+    {
+        title: "Table1",
+        columns: [...tableColumns],
+        data: [{
+            directive: "%a",
+            meaning: "Abbreviated weekday name.",
+            example: "Sun, Mon, ..."
+        }
+    }
+]
+</js>
