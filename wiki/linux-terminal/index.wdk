@@ -5,9 +5,62 @@
 <summary>GIT</summary>
 [Tutorial](https://git-scm.com/docs/gittutorial)
 
-### Creating a remote Repository and adding files from local project to it
+## Creating a remote Repository and adding files from local project to it
 Create Empty Git Repository (e.g. on remote location)
 
 `git init --bare`
+
+### Create Local Repository (e.g. from existing file, on your drive)
+
+`git init`
+
+### link empty remote repository and local existing repository
+
+`git remote add origin [url]`
+
+### check status
+
+`git status`
+
+### add files to git
+
+`git add [files, e.g. file1.py file2.py]`
+
+### commit to git
+
+`git commit -m [message]`
+
+### push to remote
+
+`git push origin master`
+
+## Creating a local Repository and adding files from remote project to it
+$INFO$local-name is optional
+
+`git clone [url] ([local-name])`
+
+### Or clone it manually:
+
+#### Create Empty Git Repository (local)
+
+`git init --bare`
+
+#### link existing repository (at ‘url’) to local empty repository
+
+`git remote add origin [url]`
+
+#### pull project (get files)
+
+`git pull origin master`
+
+## Branches
+
+### create new branch and switch to it
+
+`git checkout -b [branchname]`
+
+### switch to existing branch
+
+`git checkout [branchname]`
 </details>
 </md>
