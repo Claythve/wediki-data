@@ -2,6 +2,9 @@
   {
     "name": "Wiki",
     "subitems": [{
+        "name": "Showcase",
+        "data": "wiki/showcase"
+      },{
         "name": "String Formatting",
         "data": "wiki/string-formatting"
       }, {
