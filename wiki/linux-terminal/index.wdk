@@ -25,7 +25,6 @@ Output: (Stick-Bezeichnung finden mit lsblk)
 
 `zcat vcl-image-port1-4p.sdimg.gz | sudo dd of=/dev/mmcblk0 bs=4k status=progress`
 </details>
-
 <details>
 <summary>GIT</summary>
 [Tutorial](https://git-scm.com/docs/gittutorial)
@@ -76,5 +75,10 @@ create new branch and switch to it
 
 switch to existing branch
 `git checkout [branchname]`
+</details>
+<details>
+<summary>Cheat Sheets</summary>
+https://files.fosswire.com/2007/08/fwunixref.pdf
+https://cheatography.com/davechild/cheat-sheets/linux-command-line/
 </details>
 </md>
