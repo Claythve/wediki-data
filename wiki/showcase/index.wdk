@@ -23,7 +23,7 @@ namespace ShowCase
   }
 }
 ```
-
+links get automatically highlighted: https://wediki.herokuapp.com/#/wiki/showcase
 [Links](https://google.com/)
 
 ## And Special Flair:
