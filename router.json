@@ -3,13 +3,16 @@
     "name": "Wiki",
     "subitems": [{
         "name": "Showcase",
-        "data": "wiki/showcase"
+        "data": "wiki/showcase",
+        "icon": "icon-bulb-63"
       },{
         "name": "String Formatting",
-        "data": "wiki/string-formatting"
+        "data": "wiki/string-formatting",
+        "icon": "icon-caps-small"
       }, {
         "name": "Linux Terminal",
-        "data": "wiki/linux-terminal"
+        "data": "wiki/linux-terminal",
+        "icon": "icon-tablet-2"
       }]
   },
   {
