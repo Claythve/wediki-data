@@ -17,6 +17,15 @@
   },
   {
     "name": "Formulas",
-    "subitems": []
+    "subitems": [{
+      "name": "Matura/WR/Angebotskurve",
+      "data": "Formulas/Matura/WR/Angebotskurve"
+    }, {
+      "name": "Matura/WR/Komplementärgüter",
+      "data": "Formulas/Matura/WR/Komplementärgüter"
+    }, {
+      "name": "Matura/MA/Potenzen",
+      "data": "Formulas/Matura/MA/Potenzen"
+    }]
   }
 ]
