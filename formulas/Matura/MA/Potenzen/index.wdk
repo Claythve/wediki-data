@@ -1,8 +1,12 @@
 <md>
+# DEMO:
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
 # Potenzen
 ## 1. Das Rechnen mit Potenzen
 ### 1.1. Begriffe
-y = x^n
+\(y = x^n\)
 
 y: Potenzwert
 
@@ -11,7 +15,7 @@ x: Basis
 n: Exponent
 
 1.2. Die Potenzfunktionen mit positivem Exponenten
-x^0 = 1 für alle x
+\(x^0 = 1\)für alle x
 
 0^n = 0 für alle n
 
