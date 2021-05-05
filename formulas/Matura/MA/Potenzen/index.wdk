@@ -24,15 +24,15 @@ n: Exponent
 ### 1.3. Die Potenzfunktionen mit negativem Exponenten
 \(x^0 = 1\) für alle x
 
-\(x^(-n) = {1 \over x^n}\)
+\(x^{-n} = {1 \over x^n}\)
 
-\(0^(-n) =\) nicht definiert
+\(0^{-n} =\) nicht definiert
 
-\(1^(-n) = 1\) für alle n
+\(1^{-n} = 1\) für alle n
 
-\((-1)^(-n) = +1\) für alle geraden n
+\((-1)^{-n} = +1\) für alle geraden n
 
-\((-1)^(-n) = -1\) für alle ungeraden n
+\((-1)^{-n} = -1\) für alle ungeraden n
 
 ### 1.4. Rechengesetzte der Potenzrechnung
 1. Potenzen mit gleicher Basis und gleichem Exponenten dürfen addiert und subtrahiert werden
