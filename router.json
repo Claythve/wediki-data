@@ -19,13 +19,16 @@
     "name": "Formulas",
     "subitems": [{
       "name": "Matura/WR/Angebotskurve",
-      "data": "formulas/Matura/WR/Angebotskurve"
+      "data": "formulas/Matura/WR/Angebotskurve",
+      "icon": "icon-money-coins"
     }, {
       "name": "Matura/WR/Komplementärgüter",
-      "data": "formulas/Matura/WR/Komplementärgüter"
+      "data": "formulas/Matura/WR/Komplementärgüter",
+      "icon": "icon-money-coins"
     }, {
       "name": "Matura/MA/Potenzen",
-      "data": "formulas/Matura/MA/Potenzen"
+      "data": "formulas/Matura/MA/Potenzen",
+      "icon": "icon-chart-bar-32"
     }]
   }
 ]
