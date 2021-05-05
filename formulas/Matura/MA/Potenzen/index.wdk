@@ -28,7 +28,9 @@ n: Exponent
 ### 1.3. Die Potenzfunktionen mit negativem Exponenten
 \(x^0 = 1\) für alle x
 
-\(0^(-n) = nicht definiert\)
+\(x^(-n) = 1 \over x^n\)
+
+\(0^(-n) =\) nicht definiert
 
 \(1^(-n) = 1\) für alle n
 
@@ -37,19 +39,21 @@ n: Exponent
 \((-1)^(-n) = -1\) für alle ungeraden n
 
 ### 1.4. Rechengesetzte der Potenzrechnung
-Potenzen mit gleicher Basis und gleichem Exponenten dürfen addiert und subtrahiert werden
+1. Potenzen mit gleicher Basis und gleichem Exponenten dürfen addiert und subtrahiert werden
 
 $$b * an + c * a^n = a^n(b + c)$$
 
-Potenzen mit gleicher Basis dürfen multipliziert und dividiert werden
+2. Potenzen mit gleicher Basis dürfen multipliziert und dividiert werden
 
 $$a^m * a^n = a^(m + n)$$
+$$a^m \over a^n = a^(m - n)$$
 
-Potenzieren von Summen und Differenzen (binomische Formeln)
+3. Potenzieren von Summen und Differenzen (binomische Formeln)
 
-Potenzieren von Produkten und Brüchen
+4. Potenzieren von Produkten und Brüchen
 
 $$(a * b)^n = a^n * b^n$$
+$$(a/b)^n = (a^n) / b^n$$
 
 Potenzieren einer Potenz
 
