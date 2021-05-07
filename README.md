@@ -1,7 +1,5 @@
 # wediki: data
 
-## Usage
-
 ## License
     wediki-data
     Copyright (C) 2021 dxstiny and Claythve
