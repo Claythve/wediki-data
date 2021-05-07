@@ -5,10 +5,10 @@ refer to https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/ or 
 <details>
 <summary>ifs</summary>
 If possible, ifs should be reduced to one line:
+
 ```c
 int a, b, c;
 a = b = 2;
-
 // bad example
 if (a < b)
 {
@@ -22,10 +22,12 @@ else
 // good
 c = (a < b) ? (b - a) : (a - b);
 ```
+
 </details>
 <details>
 <summary>braces</summary>
 Braces should always be placed like this:
+
 ```c
 if (true)
 {
@@ -43,21 +45,26 @@ else
   }
 }
 ```
+
 But try-catch may be used like this aswell, if no Exception is being catched
+
 ```c
 try
 {
   // other code
 } catch { }
 ```
+
 </details>
 <details>
 <summary>semicolons</summary>
 Braces should always be placed like this:
 If semicolons are not always required, but always allowed (e.g. in JavaScript), they should be written
+
 ```javascript
 var button = document.getElementById("button");
 ```
+
 </details>
 <details>
 <summary>" / '</summary>
@@ -80,6 +87,7 @@ if true/True is not defined in your language (e.g. C), you should use `for(;;);`
 ++i should rather be used than i++, because i++ (post-increment) creates a temporary object and thus reduces performance (depending on the compiler / optimiser).
 
 Note, however, that there is a slight difference between assigning ++i or i++ to a variable:
+
 ```c
  i = 1;
  j = ++i;
