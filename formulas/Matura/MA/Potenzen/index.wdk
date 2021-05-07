@@ -51,7 +51,7 @@ $${a^m \over a^n} = a^{m - n}$$
 $$(a * b)^n = a^n * b^n$$
 $$({a \over b})^n = {a^n \over b^n}$$
 
-Potenzieren einer Potenz
+5. Potenzieren einer Potenz
 
 $$(a^n)^m = a^{n * m} = a^{m * n} = (a^m)^n$$
 </md>

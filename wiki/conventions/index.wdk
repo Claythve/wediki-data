@@ -1,0 +1,114 @@
+<md>
+# General
+refer to https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/ or https://dotnetanalyzers.github.io/StyleCopAnalyzers/ for detailed and correct styling conventions (also applies for all other languages, i.e. use braces in every language, even if the language doesn’t support braces)
+
+<details>
+<summary>ifs</summary>
+If possible, ifs should be reduced to one line:
+```c
+int a, b, c;
+a = b = 2;
+
+// bad example
+if (a < b)
+{
+  c = b - a;
+}
+else
+{
+  c = a - b;
+}
+
+// good
+c = (a < b) ? (b - a) : (a - b);
+```
+</details>
+<details>
+<summary>braces</summary>
+Braces should always be placed like this:
+```c
+if (true)
+{
+  // code
+}
+else
+{
+  try
+  {
+    // other code
+  }
+  catch (Exception e)
+  {
+    // more code
+  }
+}
+```
+But try-catch may be used like this aswell, if no Exception is being catched
+```c
+try
+{
+  // other code
+} catch { }
+```
+</details>
+<details>
+<summary>semicolons</summary>
+Braces should always be placed like this:
+If semicolons are not always required, but always allowed (e.g. in JavaScript), they should be written
+```javascript
+var button = document.getElementById("button");
+```
+</details>
+<details>
+<summary>" / '</summary>
+Generally, “ is used for strings and ' for single characters.
+
+But “ should be used for the outer string, if the string has to contain either “ or ' (e.g. onclick=”window.location.href='https://google.com/'“).
+</details>
+<details>
+<summary>PascalCase and camelCase</summary>
+camelCase should be used for all functions and variables, whereas PascalCase should be used for Classes, Enums, and templates in general.
+</details>
+<details>
+<summary>Endlessloops</summary>
+The preferred option is
+`while (true);` or `while True:`
+if true/True is not defined in your language (e.g. C), you should use `for(;;);`, not `while(1);`
+</details>
+<details>
+<summary>Incrementing</summary>
+++i should rather be used than i++, because i++ (post-increment) creates a temporary object and thus reduces performance (depending on the compiler / optimiser).
+
+Note, however, that there is a slight difference between assigning ++i or i++ to a variable:
+```c
+ i = 1;
+ j = ++i;
+// (i is 2, j is 2)
+```
+```c
+ i = 1;
+ j = i++;
+// (i is 2, j is 1)
+```
+</details>
+# Python
+<details>
+<summary>Leading underscores</summary>
+```python
+>>> class MyClass():
+...     def __init__(self):
+...             self.__superprivate = "Hello"
+...             self._semiprivate = ", world!"
+...
+>>> mc = MyClass()
+>>> print mc.__superprivate
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: myClass instance has no attribute '__superprivate'
+>>> print mc._semiprivate
+, world!
+>>> print mc.__dict__
+{'_MyClass__superprivate': 'Hello', '_semiprivate': ', world!'}
+```
+</details>
+</md>

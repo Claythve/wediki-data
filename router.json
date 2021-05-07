@@ -1,34 +1,47 @@
 [
   {
+    "name": "Formulas",
+    "subitems": [
+      {
+        "name": "MA/Potenzen",
+        "data": "formulas/Matura/MA/Potenzen",
+        "icon": "icon-chart-bar-32"
+      },
+      {
+        "name": "WR/Angebotskurve",
+        "data": "formulas/Matura/WR/Angebotskurve",
+        "icon": "icon-money-coins"
+      },
+      {
+        "name": "WR/Komplementärgüter",
+        "data": "formulas/Matura/WR/Komplementärgüter",
+        "icon": "icon-money-coins"
+      }
+    ]
+  },
+  {
     "name": "Wiki",
-    "subitems": [{
-        "name": "Showcase",
-        "data": "wiki/showcase",
-        "icon": "icon-bulb-63"
-      },{
-        "name": "String Formatting",
-        "data": "wiki/string-formatting",
-        "icon": "icon-caps-small"
-      }, {
+    "subitems": [
+      {
+        "name": "Conventions",
+        "data": "wiki/conventions",
+        "icon": "icon-tablet-2"
+      },
+      {
         "name": "Linux Terminal",
         "data": "wiki/linux-terminal",
         "icon": "icon-tablet-2"
-      }]
-  },
-  {
-    "name": "Formulas",
-    "subitems": [{
-      "name": "WR/Angebotskurve",
-      "data": "formulas/Matura/WR/Angebotskurve",
-      "icon": "icon-money-coins"
-    }, {
-      "name": "WR/Komplementärgüter",
-      "data": "formulas/Matura/WR/Komplementärgüter",
-      "icon": "icon-money-coins"
-    }, {
-      "name": "MA/Potenzen",
-      "data": "formulas/Matura/MA/Potenzen",
-      "icon": "icon-chart-bar-32"
-    }]
+      },
+      {
+        "name": "Showcase",
+        "data": "wiki/showcase",
+        "icon": "icon-bulb-63"
+      },
+      {
+        "name": "String Formatting",
+        "data": "wiki/string-formatting",
+        "icon": "icon-caps-small"
+      }
+    ]
   }
 ]
