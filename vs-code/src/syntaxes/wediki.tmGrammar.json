@@ -1,0 +1,54 @@
+{
+    "scopeName": "source.wedikigm",
+    "injectionSelector": "L:entity.name.section.markdown",
+    "patterns": [
+        {
+            "include": "#expression"
+        }
+    ],
+    "repository": {
+        "expression": {
+            "patterns": [
+                {
+                    "include": "#letter"
+                },
+                {
+                    "include": "#paren-expression"
+                },
+                {
+                    "include": "#keyword"
+                }
+            ]
+        },
+        "keyword": {
+            "match": "TODO",
+            "name": "keyword.todo"
+        },
+        "letter": {
+            "match": "md|emd",
+            "name": "keyword.letter",
+            "contentName": "meta.embedded.block.markdown"
+        },
+        "paren-expression": {
+            "begin": "//<md>",
+            "end": "//<emd>",
+            "contentName": "meta.embedded.block.markdown",
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.paren.open"
+                }
+            },
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.paren.close"
+                }
+            },
+            "name": "meta.embedded.block.markdown",
+            "patterns": [
+                {
+                    "include": "#expression"
+                }
+            ]
+        }
+    }
+}

@@ -1,1 +1,5 @@
-/.project
+vs-code/out
+vs-code/dist
+vs-code/node_modules
+vs-code/.vscode-test/
+vs-code/*.vsix
