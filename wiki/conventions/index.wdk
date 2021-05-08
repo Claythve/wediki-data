@@ -102,6 +102,7 @@ Note, however, that there is a slight difference between assigning ++i or i++ to
 # Python
 <details>
 <summary>Leading underscores</summary>
+
 ```python
 >>> class MyClass():
 ...     def __init__(self):
@@ -118,5 +119,6 @@ AttributeError: myClass instance has no attribute '__superprivate'
 >>> print mc.__dict__
 {'_MyClass__superprivate': 'Hello', '_semiprivate': ', world!'}
 ```
+
 </details>
 </md>
