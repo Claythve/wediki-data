@@ -79,7 +79,7 @@ camelCase should be used for all functions and variables, whereas PascalCase sho
 <details>
 <summary>Endlessloops</summary>
 The preferred option is
-`while (true);` or `while True:`
+`while (true); ` or `while True:`
 if true/True is not defined in your language (e.g. C), you should use `for(;;);`, not `while(1);`
 </details>
 <details>
@@ -103,7 +103,7 @@ Note, however, that there is a slight difference between assigning ++i or i++ to
 <details>
 <summary>Leading underscores</summary>
 
-```csharp
+```c
 >>> class MyClass():
 ...     def __init__(self):
 ...             self.__superprivate = "Hello"
