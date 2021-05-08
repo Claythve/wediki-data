@@ -53,8 +53,21 @@ If you have something to hide for example.
 $INFO$And Special Flair
 [or link your favourite websites](https://tink.ga/)
 $T$Table1
-And multi-line code-blocks now too! (pro tip: you can clone the code)
-$C$1
+And multi-line code-blocks now too!
+```csharp
+using System;
+
+namespace ShowCase
+{
+  public class ShowCase()
+  {
+    public ShowCase()
+    {
+      Console.WriteLine("Or Syntax Highlighted Multi Line Code Blocks!"); // used in markdown-manner, coloured in VS Code style
+    }
+  }
+}
+```
 </details>
 </md>
 <js>
