@@ -53,7 +53,7 @@ If you have something to hide for example.
 $INFO$And Special Flair
 [or link your favourite websites](https://tink.ga/)
 $T$Table1
-And multi-line code-blocks now too!
+### And multi-line code-blocks now too!
 ```csharp
 using System;
 
@@ -67,6 +67,9 @@ namespace ShowCase
     }
   }
 }
+### And Formulas:
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 ```
 </details>
 </md>
