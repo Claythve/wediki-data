@@ -53,6 +53,8 @@ If you have something to hide for example.
 $INFO$And Special Flair
 [or link your favourite websites](https://tink.ga/)
 $T$Table1
+And multi-line code-blocks now too! (pro tip: you can clone the code)
+$C$1
 </details>
 </md>
 <js>
