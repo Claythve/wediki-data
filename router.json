@@ -23,6 +23,11 @@
     "name": "Wiki",
     "subitems": [
       {
+        "name": "Showcase",
+        "data": "wiki/showcase",
+        "icon": "icon-bulb-63"
+      },
+      {
         "name": "Conventions",
         "data": "wiki/conventions",
         "icon": "icon-tablet-2"
@@ -31,11 +36,6 @@
         "name": "Linux Terminal",
         "data": "wiki/linux-terminal",
         "icon": "icon-tablet-2"
-      },
-      {
-        "name": "Showcase",
-        "data": "wiki/showcase",
-        "icon": "icon-bulb-63"
       },
       {
         "name": "String Formatting",
