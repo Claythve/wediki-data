@@ -6,7 +6,7 @@ refer to https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/ or 
 <summary>ifs</summary>
 If possible, ifs should be reduced to one line:
 
-```c
+```csharp
 int a, b, c;
 a = b = 2;
 // bad example
@@ -28,7 +28,7 @@ c = (a < b) ? (b - a) : (a - b);
 <summary>braces</summary>
 Braces should always be placed like this:
 
-```c
+```csharp
 if (true)
 {
   // code
@@ -48,7 +48,7 @@ else
 
 But try-catch may be used like this aswell, if no Exception is being catched
 
-```c
+```csharp
 try
 {
   // other code
@@ -88,12 +88,12 @@ if true/True is not defined in your language (e.g. C), you should use `for(;;);`
 
 Note, however, that there is a slight difference between assigning ++i or i++ to a variable:
 
-```c
+```csharp
  i = 1;
  j = ++i;
 // (i is 2, j is 2)
 ```
-```c
+```csharp
  i = 1;
  j = i++;
 // (i is 2, j is 1)
@@ -103,7 +103,7 @@ Note, however, that there is a slight difference between assigning ++i or i++ to
 <details>
 <summary>Leading underscores</summary>
 
-```c
+```python
 >>> class MyClass():
 ...     def __init__(self):
 ...             self.__superprivate = "Hello"
