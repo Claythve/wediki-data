@@ -15,8 +15,7 @@ let data = [];
 if (request.status === 200) {
   console.log(request.responseText);
   const subjects = JSON.parse(request.responseText);
-  console.log(subjects);
-  for (subject of subjects)
+  for (let subject of subjects)
   {
     let d = { };
     d.subject = subject.name;
