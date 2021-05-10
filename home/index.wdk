@@ -4,22 +4,20 @@ $T$Homework
 <js>
 tables = []
 
-fetch("https://eu-claythve.herokuapp.com/api/subjects").then(resp => {
-  resp.json().then(subjects => {
-    let data = []
-    console.log(subjects);
-    subjects.forEach(subject => {
-      let d = { };
-      d.subject = subject.name;
-      d.homework = subject.homework.map(x => x.description).join(",");
-      data.push(data);
-    });
-    tables.push({
-      title: "Homework",
-      columns: ["subject", "homework"],
-      data: data
-    });
-    console.log(tables);
-  });
+const resp = await fetch("https://eu-claythve.herokuapp.com/api/subjects");
+const subjects = await resp.json();
+let data = []
+console.log(subjects);
+subjects.forEach(subject => {
+  let d = { };
+  d.subject = subject.name;
+  d.homework = subject.homework.map(x => x.description).join(",");
+  data.push(data);
 });
+tables.push({
+  title: "Homework",
+  columns: ["subject", "homework"],
+  data: data
+});
+console.log(tables);
 </js>
