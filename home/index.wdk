@@ -7,7 +7,7 @@ $T$Homework
 tables = [];
 
 var request = new XMLHttpRequest();
-request.open('GET', '/bar/foo.txt', false);  // `false` makes the request synchronous
+request.open('GET', 'https://eu-claythve.herokuapp.com/api/subjects', false);  // `false` makes the request synchronous
 request.send(null);
 
 let data = [];
