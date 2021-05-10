@@ -2,10 +2,12 @@
 $T$Homework
 </md>
 <js>
+tables = []
 
 fetch("https://eu-claythve.herokuapp.com/api/subjects").then(resp => {
   resp.json().then(subjects => {
     let data = []
+    console.log(subjects);
     subjects.forEach(subject => {
       let d = { };
       d.subject = subject.name;
