@@ -2,8 +2,8 @@
 $T$Homework
 </md>
 <js>
-console.log(tables, "BEFORE");
-tables = [];
+//console.log(tables, "BEFORE");
+let tables = [];
 
 const resp = await fetch("https://eu-claythve.herokuapp.com/api/subjects");
 const subjects = await resp.json();
@@ -22,4 +22,6 @@ tables.push({
   data: data
 });
 console.log(tables);
+
+return tables;
 </js>
