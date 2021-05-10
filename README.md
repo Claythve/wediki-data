@@ -36,7 +36,7 @@ example table:
 when using async operations (the "await"-operator), the "tables"-variable shan't be overwritten! Thus, instead of using `tables = [table1, table2]`, use something like `tables.push(table1); tables.push(table2);`
 
 ### HTTP-Requests
-*custom headers / parameters are not supported in our wrappers, obviously you can do the requests yourself aswell*
+*custom headers / parameters are not supported in our wrappers, obviously you can do the requests yourself as well*
 
 If you want to execute http requests, then that's no problem!
 Simply use our wrappers:
