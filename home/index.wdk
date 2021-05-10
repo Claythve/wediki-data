@@ -6,26 +6,21 @@ $T$Homework
 <js>
 tables = [];
 
-var request = new XMLHttpRequest();
-request.open('GET', 'https://eu-claythve.herokuapp.com/api/subjects', false);  // `false` makes the request synchronous
-request.send(null);
-
+const subjects = getRequest.json('https://eu-claythve.herokuapp.com/api/subjects');
 let data = [];
-
-if (request.status === 200) {
-  console.log(request.responseText);
-  const subjects = JSON.parse(request.responseText);
-  for (let subject of subjects)
-  {
-    let d = { };
-    d.subject = subject.name;
-    d.homework = subject.homework.map(x => x.description).join(",");
-    data.push(data);
-  }
-  tables = [{
-    title: "Homework",
-    columns: ["subject", "homework"],
-    data: Array.from(data)
-  }];
+console.log(subjects);
+for (let subject of subjects)
+{
+  let d = { };
+  d.subject = subject.name;
+  d.homework = subject.homework.map(x => x.description).join(",");
+  data.push(data);
 }
+tables = [{
+  title: "Homework",
+  columns: ["subject", "homework"],
+  data: Array.from(data)
+}];
+console.log(tables);
+console.log(tables[0].data)
 </js>
