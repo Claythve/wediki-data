@@ -2,6 +2,7 @@
 $T$Homework
 </md>
 <js>
+console.log(tables, "BEFORE");
 tables = []
 
 const resp = await fetch("https://eu-claythve.herokuapp.com/api/subjects");
