@@ -3,11 +3,11 @@ $T$Homework
 </md>
 <js>
 console.log(tables, "BEFORE");
-tables = []
+tables = [];
 
 const resp = await fetch("https://eu-claythve.herokuapp.com/api/subjects");
 const subjects = await resp.json();
-let data = []
+let data = [];
 console.log(subjects);
 for (subject of subjects)
 {
