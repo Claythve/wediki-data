@@ -33,6 +33,11 @@
         "icon": "icon-tablet-2"
       },
       {
+        "name": "JavaScript",
+        "data": "wiki/javascript",
+        "icon": "icon-tablet-2"
+      },
+      {
         "name": "Linux Terminal",
         "data": "wiki/linux-terminal",
         "icon": "icon-tablet-2"
