@@ -4,8 +4,6 @@
 $T$Homework
 </md>
 <js>
-tables = [];
-
 const subjects = await request.async.get.json('https://eu-claythve.herokuapp.com/api/subjects');
 console.log(subjects);
 let data = [];
@@ -16,9 +14,9 @@ for (let subject of subjects)
   d.homework = subject.homework.map(x => x.description).join(",");
   data.push(d);
 }
-tables = [{
+tables.push{
   title: "Homework",
   columns: ["subject", "homework"],
   data: Array.from(data)
-}];
+};
 </js>
