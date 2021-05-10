@@ -1,0 +1,94 @@
+<md>
+# JavaScript
+
+→ long form of ‘Java’.
+
+## Get Requests:
+Should be made like in the following example:
+
+```js
+function fun(otherArg, data = null)
+{
+  if (!data)
+  {
+    get("https://httpbin.org/ip", fun, otherArg)
+    return;
+  }
+  console.log(data, otherArg)
+}
+
+
+function get(url, callback, args = null)
+{
+  fetch(url)
+    .then(response => {
+      response.text().then(text => {
+      	if (args)
+        {
+        	callback(args, text)
+        }
+        else
+        {
+        	callback(text)
+        }
+      });
+    });
+}
+```
+
+Or in TypeScript:
+
+```ts
+function fun(otherArg: object, data: any = null)
+{
+	if (!data)
+    {
+        get("https://httpbin.org/ip", fun, otherArg)
+        return;
+    }
+    console.log(data, otherArg)
+}
+
+
+function httpGet(url: string, callback: CallableFunction, args=null): void
+{
+	fetch(url)
+    .then(response => {
+        response.text().then(text => {
+            if (args)
+            {
+            	callback(args, text)
+            }
+            else
+            {
+            	callback(text)
+            }
+        });
+    });
+}
+```
+
+<details>
+<summary>TypeScript</summary>
+### Compile to JavaScript
+
+```sh
+tsc -p ts/ --pretty -d
+```
+
+where ts/ is the folder containing all typescript (*.ts) files
+
+-p, --project: file or directory
+
+--pretty: stylised errors and messages using colour and context (experimental)
+
+-d, --declaration: generates the .d.ts files containing declarations (such as interfaces, classes, ..)
+
+### TSC emits (exports, "__esModule"), not recognised by browser
+Add to html before including the other js files:
+
+```js
+var exports = { };
+```
+</details>
+</md>
