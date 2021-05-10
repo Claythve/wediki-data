@@ -1,0 +1,23 @@
+<md>
+$T$HiddenTable
+</md>
+<js>
+const tableColumns = ["directive", "meaning", "example"];
+const hiddenTable = {
+    title: "HiddenTable",
+    columns: [...tableColumns],
+    data: [{
+        directive: "%a",
+        meaning: "Abbreviated weekday name.",
+        example: "Sun, Mon, ..."
+    }]
+};
+
+// don't change the variable name and don't worry about declaring that variable
+tables = [ ];
+
+if (prompt("password?") == "password")
+{
+  tables.push(hiddenTable);
+}
+</js>
