@@ -14,9 +14,9 @@ for (let subject of subjects)
   d.homework = subject.homework.map(x => x.description).join(",");
   data.push(d);
 }
-tables.push{
+tables.push({
   title: "Homework",
   columns: ["subject", "homework"],
   data: Array.from(data)
-};
+});
 </js>
