@@ -7,6 +7,7 @@ $T$Homework
 tables = [];
 
 const subjects = request.async.get.json('https://eu-claythve.herokuapp.com/api/subjects');
+console.log(subjects);
 let data = [];
 for (let subject of subjects)
 {
