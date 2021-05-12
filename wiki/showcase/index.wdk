@@ -26,8 +26,11 @@ namespace ShowCase
 links get automatically highlighted: https://wediki.herokuapp.com/#/wiki/showcase
 [Links](https://google.com/)
 ## Images
-![This is the alternative text that will be displayed if the image couldn't be loaded](https://cdn.wccftech.com/wp-content/uploads/2020/04/ac_valhalla_art.jpg)
-![This is the alternative text that will be displayed if the image couldn't be loaded](https://store-images.s-microsoft.com/image/apps.1547.14585440003614248.9f7109bf-73f7-4bc7-ba61-1eeb006d905a.75930d81-6e85-436d-9b61-1279b8dd9b31)
+
+![This is the alternative text that will be displayed if the image couldn't be loaded](https://raw.githubusercontent.com/dxstiny/ue4-tutorials/main/github-ressources/tower-defence/aiBeginPlay.png)
+
+![This is the alternative text that will be displayed if the image couldn't be loaded](https://raw.githubusercontent.com/dxstiny/ue4-tutorials/main/github-ressources/tower-defence/m_area.png)
+
 
 ## And Special Flair:
 $INFO$I'm informative
