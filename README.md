@@ -49,6 +49,40 @@ request.sync.get.plain('https://jsonplaceholder.typicode.com/todos/1'); // synch
 request.sync.get.json('https://jsonplaceholder.typicode.com/todos/1'); // synchronously requests and returns as JSON object
 ```
 
+## router.json
+Currently hardcoded to Formulas and Wiki, subitems are fully customisable and dynamic.
+Icon is optional, and can be set to either:
+
+1. any of the [creative-tim x nucleoApp icons](https://demos.creative-tim.com/vue-black-dashboard/#/icons) e.g. icon-atom
+2. any svg (note: must still be a valid json object, i.e. replace " with ') e.g. from [google](https://fonts.google.com/icons/) or [HeroIcons](https://heroicons.dev/) (you might need to set fill="white" in some paths)
+3. select presets are available:
+   1. $HOME
+   2. $CODE
+   3. $FORMULA | $MATHS | $MATH
+   4. $TERMINAL
+   5. $BOOK | $WIKI
+   6. $DASHBOARD
+   7. $CHEMISTRY
+   8. $SETTINGS
+   9. $ADJUSTMENTS
+   10. $CHAT
+   11. $CHIP
+   12. $CLIPBOARD
+   13. $CLOUD
+   14. $TRENDING
+   15. $API
+   16. $DONE
+   17. $SCHOOL
+   18. $COMMENT | $COMMENTS
+   19. $DESIGN
+   20. $IMAGE | $PHOTO
+   21. $IMPORT | $EXPORT | $IMPORTEXPORT | $IMPORT&EXPORT | $IMPORT-EXPORT
+   22. $SPLIT
+   23. $MERGE
+   24. $LINK
+   25. $SYNC | $SYNCHRONISE | $SYNCHRONIZE | $RELOAD | $REFRESH
+4. if the icon key is not described (null or undefined), "icon-atom" is taken by default
+
 ## License
     wediki-data
     Copyright (C) 2021 dxstiny and Claythve
