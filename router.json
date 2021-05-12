@@ -5,12 +5,12 @@
       {
         "name": "MA/Potenzen",
         "data": "formulas/Matura/MA/Potenzen",
-        "icon": "icon-chart-bar-32"
+        "icon": "$MATH"
       },
       {
         "name": "WR/Angebotskurve",
         "data": "formulas/Matura/WR/Angebotskurve",
-        "icon": "icon-money-coins"
+        "icon": "$TRENDING"
       },
       {
         "name": "WR/Komplementärgüter",
@@ -35,12 +35,12 @@
       {
         "name": "JavaScript",
         "data": "wiki/javascript",
-        "icon": "icon-tablet-2"
+        "icon": "$CODE"
       },
       {
         "name": "Linux Terminal",
         "data": "wiki/linux-terminal",
-        "icon": "icon-tablet-2"
+        "icon": "$TERMINAL"
       },
       {
         "name": "String Formatting",
