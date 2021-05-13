@@ -42,8 +42,8 @@ If you want to execute http requests, then that's no problem!
 Simply use our wrappers:
 
 ```javascript
-await request.async.get.plain('https://jsonplaceholder.typicode.com/todos/1'); // asynchronously requests and returns as raw/plain text
-await request.async.get.json('https://jsonplaceholder.typicode.com/todos/1'); // asynchronously requests and returns as JSON object
+return request.async.get.plain('https://jsonplaceholder.typicode.com/todos/1').then(plain => { }); // asynchronously requests and continues with raw/plain text
+return request.async.get.json('https://jsonplaceholder.typicode.com/todos/1').then(json => { }); // asynchronously requests and continues with JSON object
 
 request.sync.get.plain('https://jsonplaceholder.typicode.com/todos/1'); // synchronously requests and returns as raw/plain text
 request.sync.get.json('https://jsonplaceholder.typicode.com/todos/1'); // synchronously requests and returns as JSON object
