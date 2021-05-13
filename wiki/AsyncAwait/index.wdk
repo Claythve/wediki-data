@@ -1,0 +1,144 @@
+<md>
+# Async & Await
+## Introduction
+The async keyword enables the keyword await.
+
+The await keyword is being used to wait for async functions to finish.
+
+If an async function is being awaited, it will return its return value (like a normal function).
+
+If an async function is not being awaited, it will return a task.
+
+A task can run simultaneously with other tasks.
+
+$INFO$The main purpose of async / await is to run multiple functions (tasks) simultaneously in one thread.
+$WARN$Depending on the language (e.g. C#) and implementation they can run in several threads at the same time. This has a big disadvantage, because variables may not be accessible from other threads.
+
+## Examples
+<details>
+<summary>Python</summary>
+### asyncio (python3 library)
+
+main.py
+```python
+import asyncio # the library we'll be using
+
+from paasocket import Paasocket # example async class
+
+async def main(): # async enables the 'await' keyword
+  paasocket = Paasocket(PAAS_IP) # init class like any other class
+  
+  await paasocket.connectToWS() # example async function, wait until executed
+  
+  t_paas = paasocket.run() # example async loop function, starts it but does not wait (no 'await' !)
+  # t_paas stores the task, returned by an async function when not awaited
+  
+  await asyncio.gather(t_paas) # wait for task ('t_paas') to finish
+  
+if __name__ == '__main__':
+  asyncio.run(main())
+```
+
+
+paasocket.py
+```python
+import asyncio
+
+class Paasocket(object):
+  def __init__(paasIp):
+    self.paasIp = paasIp
+    
+  # example function that can be called from main at any time
+  async def connectToWS()
+    asyncio.sleep(1) # does allow other async tasks to be executed
+    
+  # example function that will be called from loop (run)
+  async def _readWs(inURL, queue):
+    while True:
+      asyncio.sleep(1)
+  
+  # example loop function
+  async def run(self):
+        inURL = "wss://" + self.paasIp + "/"
+        queue = asyncio.Queue()
+
+        t_ws = asyncio.create_task(self._readWs(inURL, queue))
+
+        while True:
+            source, data = await queue.get()
+
+            if source == 'ws': # for future use
+                await self.handler(data)
+
+        t_ws.cancel()
+```
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details>
+<summary>Virtual functions</summary>
+https://stackoverflow.com/a/2392656
+$INFO$works like a placeholder, do this function when nothing else specified
+</details>
+
+
+
+## Pointer
+<details>
+<summary>modifying pointer target within a function</summary>
+https://stackoverflow.com/a/2392656
+$WARN$not possible, except when passing as reference
+
+```cpp
+void getVariable(int *& ptr)
+{
+  ptr = somePointer;
+}
+```
+
+</details>
+
+## sizeof not working
+https://stackoverflow.com/a/4772754
+</md>
+
+<js>
+const tableColumns = ["access", "public", "protected", "private"];
+
+tables = [
+    {
+        title: "Inheritance",
+        columns: [...tableColumns],
+        data: [{
+            access: "Same class",
+            public: "yes",
+            protected: "yes",
+			private: "yes"
+        },{
+            access: "Derived classes",
+            public: "yes",
+            protected: "yes",
+			private: "no"
+        },{
+            access: "Outside classes",
+            public: "yes",
+            protected: "no",
+			private: "no"
+        }]
+    }
+]
+</js>

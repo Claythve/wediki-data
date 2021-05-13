@@ -54,6 +54,11 @@
                 "data": "wiki/c++",
                 "icon": "icon-book-bookmark"
             }
+            {
+                "name": "Async & Await",
+                "data": "wiki/AsyncAwait",
+                "icon": "icon-book-bookmark"
+            }
         ]
     }
 ]
