@@ -20,7 +20,7 @@ tables = [
         title: "Reference",
         columns: [...tableColumns],
         data: [{
-            selector: "<a href='https://google.com/'>Links</a>",
+            selector: "[.class](https://www.w3schools.com/cssref/sel_class.asp)",
             example: ".intro",
             description: "Selects all elements with class='intro'"
         },{
