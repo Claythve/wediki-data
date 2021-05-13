@@ -4,19 +4,20 @@
 $T$Homework
 </md>
 <js>
-const subjects = await request.async.get.json('https://eu-claythve.herokuapp.com/api/subjects');
-let data = [];
+const promise = request.async.get.json('https://eu-claythve.herokuapp.com/api/subjects');
+return promise.then(subjects => {
+    let data = [];
 
-for (let subject of subjects)
-{
-  let d = { };
-  d.subject = subject.name;
-  d.homework = subject.homework.map(x => x.description).join(",");
-  data.push(d);
-}
-tables.push({
-  title: "Homework",
-  columns: ["subject", "homework"],
-  data: Array.from(data)
+    for (let subject of subjects) {
+        let d = {};
+        d.subject = subject.name;
+        d.homework = subject.homework.map(x => x.description).join(",");
+        data.push(d);
+    }
+    tables.push({
+        title: "Homework",
+        columns: ["subject", "homework"],
+        data: Array.from(data)
+    });
 });
 </js>
