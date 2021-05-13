@@ -4,6 +4,7 @@
 <summary>Predefined colours</summary>
 https://www.w3schools.com/colors/colors_names.asp
 </details>
+
 <details>
 <summary>Selectors</summary>
 https://www.w3schools.com/cssref/css_selectors.asp
@@ -16,7 +17,7 @@ const tableColumns = ["Selector", "Example", "Description"];
 
 tables = [
     {
-        title: "",
+        title: "Table1",
         columns: [...tableColumns],
         data: [{
             Selector: "[Links](https://google.com/)",
