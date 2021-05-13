@@ -1,0 +1,47 @@
+<md>
+# Hotkeys / Shortcuts
+<details>
+<summary>Chromium based browsers</summary>
+$T$ChromiumHotkeys
+</details>
+
+<details>
+<summary>Chromium based browsers</summary>
+$T$WindowsHotkeys
+</details>
+</md>
+
+<js>
+const tableColumns = ["hotkey", "function"];
+
+tables = [
+    {
+        title: "ChromiumHotkeys",
+        columns: [...tableColumns],
+        data: [{
+            hotkey: "[CTRL] + *Number*",
+            function: "Switch to Tab @ *number*"
+        },{
+            hotkey: "[CTRL] + [T]",
+            function: "New Tab"
+        },{
+            hotkey: "[CTRL] + [SHIFT] + [T]",
+            function: "Open Recently Closed Tab"
+        },{
+            hotkey: "[CTRL] + [W]",
+            function: "Close Tab"
+        }]
+    },{
+        title: "WindowsHotkeys",
+        columns: [...tableColumns],
+        data: [{
+            hotkey: "[WIN] + *Number*",
+            function: "Switch to program @ *number* in taskbar"
+        },{
+            hotkey: "[WIN] + [SHIFT] + *Number*",
+            function: "Open program @ *number* in taskbar"
+        }]
+    }
+	
+]
+</js>

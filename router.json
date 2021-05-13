@@ -68,6 +68,11 @@
                 "name": "HTTP Response Codes",
                 "data": "wiki/http-status-codes",
                 "icon": "icon-book-bookmark"
+            },
+            {
+                "name": "Hotkeys / Shortcuts",
+                "data": "wiki/shortcuts",
+                "icon": "icon-book-bookmark"
             }
         ]
     }
