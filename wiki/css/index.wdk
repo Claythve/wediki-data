@@ -6,59 +6,59 @@ https://www.w3schools.com/colors/colors_names.asp
 </details>
 
 <details>
-<summary>Selectors</summary>
+<summary>selectors</summary>
 https://www.w3schools.com/cssref/css_selectors.asp
 $T$Table1
 </details>
 </md>
 
 <js>
-const tableColumns = ["Selector", "Example", "Description"];
+const tableColumns = ["selector", "example", "description"];
 
 tables = [
     {
         title: "Table1",
         columns: [...tableColumns],
         data: [{
-            Selector: "[Links](https://google.com/)",
-            Example: ".intro",
-            Description: "Selects all elements with class=intro"
+            selector: "[Links](https://google.com/)",
+            example: ".intro",
+            description: "Selects all elements with class=intro"
         },{
-            Selector: ".class1.class2",
-            Example: ".name1.name2",
-            Description: "Selects all elements with both name1 and name2 set within its class attribute"
+            selector: ".class1.class2",
+            example: ".name1.name2",
+            description: "Selects all elements with both name1 and name2 set within its class attribute"
         },{
-            Selector: ".class1 .class2",
-            Example: ".name1 .name2",
-            Description: "Selects all elements with name2 that is a descendant of an element with name1"
+            selector: ".class1 .class2",
+            example: ".name1 .name2",
+            description: "Selects all elements with name2 that is a descendant of an element with name1"
         },{
-            Selector: "#id",
-            Example: "#firstname",
-            Description: "Selects the element with id=firstname"
+            selector: "#id",
+            example: "#firstname",
+            description: "Selects the element with id=firstname"
         },{
-            Selector: "*",
-            Example: "*",
-            Description: "Selects all elements"
+            selector: "*",
+            example: "*",
+            description: "Selects all elements"
         },{
-            Selector: "element",
-            Example: "p",
-            Description: "Selects all <p> elements"
+            selector: "element",
+            example: "p",
+            description: "Selects all <p> elements"
         },{
-            Selector: "element.class",
-            Example: "p.intro",
-            Description: "Selects all <p> elements with class=intro"
+            selector: "element.class",
+            example: "p.intro",
+            description: "Selects all <p> elements with class=intro"
         },{
-            Selector: "element,element",
-            Example: "div, p",
-            Description: "Selects all <div> elements and all <p> elements"
+            selector: "element,element",
+            example: "div, p",
+            description: "Selects all <div> elements and all <p> elements"
         },{
-            Selector: "element element",
-            Example: "div p",
-            Description: "Selects all <p> elements inside <div> elements"
+            selector: "element element",
+            example: "div p",
+            description: "Selects all <p> elements inside <div> elements"
         },{
-            Selector: "element>element",
-            Example: "div > p",
-            Description: "Selects all <p> elements where the parent is a <div> element"
+            selector: "element>element",
+            example: "div > p",
+            description: "Selects all <p> elements where the parent is a <div> element"
         }]
     }
 ]
