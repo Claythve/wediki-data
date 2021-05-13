@@ -20,7 +20,7 @@ tables = [
         title: "Reference",
         columns: [...tableColumns],
         data: [{
-            selector: ".class",
+            selector: "<a href='https://google.com/'>Links</a>",
             example: ".intro",
             description: "Selects all elements with class='intro'"
         },{
