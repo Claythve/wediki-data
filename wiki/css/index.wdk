@@ -22,7 +22,7 @@ tables = [
         data: [{
             Selector: "[Links](https://google.com/)",
             Example: ".intro",
-            Description: "Selects all elements with class="intro""
+            Description: "Selects all elements with class=intro"
         },{
             Selector: ".class1.class2",
             Example: ".name1.name2",
@@ -34,7 +34,7 @@ tables = [
         },{
             Selector: "#id",
             Example: "#firstname",
-            Description: "Selects the element with id="firstname""
+            Description: "Selects the element with id=firstname"
         },{
             Selector: "*",
             Example: "*",
@@ -46,7 +46,7 @@ tables = [
         },{
             Selector: "element.class",
             Example: "p.intro",
-            Description: "Selects all <p> elements with class="intro""
+            Description: "Selects all <p> elements with class=intro"
         },{
             Selector: "element,element",
             Example: "div, p",
