@@ -48,6 +48,11 @@
                 "name": "CSS",
                 "data": "wiki/css",
                 "icon": "icon-book-bookmark"
+            },
+            {
+                "name": "C++",
+                "data": "wiki/c++",
+                "icon": "icon-book-bookmark"
             }
         ]
     }

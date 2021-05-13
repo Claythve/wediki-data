@@ -1,0 +1,62 @@
+<md>
+# C++
+## Classes
+<details>
+<summary>Inheritance</summary>
+$T$Inheritance
+https://www.tutorialspoint.com/cplusplus/cpp_inheritance.htm
+</details>
+
+<details>
+<summary>Virtual functions</summary>
+https://stackoverflow.com/a/2392656
+$INFO$works like a placeholder, do this function when nothing else specified
+</details>
+
+
+
+## Pointer
+<details>
+<summary>modifying pointer target within a function</summary>
+https://stackoverflow.com/a/2392656
+$WARN$not possible, except when passing as reference
+
+```cpp
+void getVariable(int *& ptr)
+{
+  ptr = somePointer;
+}
+```
+
+</details>
+
+## sizeof not working
+https://stackoverflow.com/a/4772754
+</md>
+
+<js>
+const tableColumns = ["access", "public", "protected", "private"];
+
+tables = [
+    {
+        title: "Inheritance",
+        columns: [...tableColumns],
+        data: [{
+            access: "Same class",
+            public: "yes",
+            protected: "yes",
+			private: "yes"
+        },{
+            access: "Derived classes",
+            public: "yes",
+            protected: "yes",
+			private: "no"
+        },{
+            access: "Outside classes",
+            public: "yes",
+            protected: "no",
+			private: "no"
+        }]
+    }
+]
+</js>
