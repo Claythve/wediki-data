@@ -56,7 +56,12 @@
             },
             {
                 "name": "Async & Await",
-                "data": "wiki/AsyncAwait",
+                "data": "wiki/async-await",
+                "icon": "icon-book-bookmark"
+            },
+            {
+                "name": "Character naming",
+                "data": "wiki/character-naming",
                 "icon": "icon-book-bookmark"
             }
         ]
