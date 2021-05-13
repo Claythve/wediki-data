@@ -1,11 +1,9 @@
 <md>
 # General
 refer to https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/ or https://dotnetanalyzers.github.io/StyleCopAnalyzers/ for detailed and correct styling conventions (also applies for all other languages, i.e. use braces in every language, even if the language doesn’t support braces)
-
 <details>
 <summary>ifs</summary>
 If possible, ifs should be reduced to one line:
-
 ```csharp
 int a, b, c;
 a = b = 2;
@@ -22,12 +20,10 @@ else
 // good
 c = (a < b) ? (b - a) : (a - b);
 ```
-
 </details>
 <details>
 <summary>braces</summary>
 Braces should always be placed like this:
-
 ```csharp
 if (true)
 {
@@ -45,26 +41,21 @@ else
   }
 }
 ```
-
 But try-catch may be used like this aswell, if no Exception is being catched
-
 ```csharp
 try
 {
   // other code
 } catch { }
 ```
-
 </details>
 <details>
 <summary>semicolons</summary>
 Braces should always be placed like this:
 If semicolons are not always required, but always allowed (e.g. in JavaScript), they should be written
-
 ```javascript
 var button = document.getElementById("button");
 ```
-
 </details>
 <details>
 <summary>" / '</summary>
@@ -87,7 +78,6 @@ if true/True is not defined in your language (e.g. C), you should use `for(;;);`
 ++i should rather be used than i++, because i++ (post-increment) creates a temporary object and thus reduces performance (depending on the compiler / optimiser).
 
 Note, however, that there is a slight difference between assigning ++i or i++ to a variable:
-
 ```csharp
  i = 1;
  j = ++i;
@@ -99,10 +89,10 @@ Note, however, that there is a slight difference between assigning ++i or i++ to
 // (i is 2, j is 1)
 ```
 </details>
+
 # Python
 <details>
 <summary>Leading underscores</summary>
-
 ```python
 >>> class MyClass():
 ...     def __init__(self):
@@ -119,6 +109,5 @@ AttributeError: myClass instance has no attribute '__superprivate'
 >>> print mc.__dict__
 {'_MyClass__superprivate': 'Hello', '_semiprivate': ', world!'}
 ```
-
 </details>
 </md>

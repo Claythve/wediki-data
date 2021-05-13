@@ -1,0 +1,64 @@
+<md>
+# CSS
+<details>
+<summary>Predefined colours</summary>
+https://www.w3schools.com/colors/colors_names.asp
+</details>
+<details>
+<summary>Selectors</summary>
+https://www.w3schools.com/cssref/css_selectors.asp
+$T$Table1
+</details>
+</md>
+
+<js>
+const tableColumns = ["Selector", "Example", "Description"];
+
+tables = [
+    {
+        title: "",
+        columns: [...tableColumns],
+        data: [{
+            Selector: "[Links](https://google.com/)",
+            Example: ".intro",
+            Description: "Selects all elements with class="intro""
+        },{
+            Selector: ".class1.class2",
+            Example: ".name1.name2",
+            Description: "Selects all elements with both name1 and name2 set within its class attribute"
+        },{
+            Selector: ".class1 .class2",
+            Example: ".name1 .name2",
+            Description: "Selects all elements with name2 that is a descendant of an element with name1"
+        },{
+            Selector: "#id",
+            Example: "#firstname",
+            Description: "Selects the element with id="firstname""
+        },{
+            Selector: "*",
+            Example: "*",
+            Description: "Selects all elements"
+        },{
+            Selector: "element",
+            Example: "p",
+            Description: "Selects all <p> elements"
+        },{
+            Selector: "element.class",
+            Example: "p.intro",
+            Description: "Selects all <p> elements with class="intro""
+        },{
+            Selector: "element,element",
+            Example: "div, p",
+            Description: "Selects all <div> elements and all <p> elements"
+        },{
+            Selector: "element element",
+            Example: "div p",
+            Description: "Selects all <p> elements inside <div> elements"
+        },{
+            Selector: "element>element",
+            Example: "div > p",
+            Description: "Selects all <p> elements where the parent is a <div> element"
+        }]
+    }
+]
+</js>
