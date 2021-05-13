@@ -73,6 +73,11 @@
                 "name": "Hotkeys / Shortcuts",
                 "data": "wiki/shortcuts",
                 "icon": "icon-book-bookmark"
+            },
+            {
+                "name": "Useful Software",
+                "data": "wiki/useful-software",
+                "icon": "icon-book-bookmark"
             }
         ]
     }
