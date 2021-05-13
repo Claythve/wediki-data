@@ -24,7 +24,7 @@ namespace ShowCase
 }
 ```
 links get automatically highlighted: https://wediki.herokuapp.com/#/wiki/showcase
-[Links](https://google.com/)
+So do [Hyperlinks](https://google.com/)
 ## Images
 
 ![This is the alternative text that will be displayed if the image couldn't be loaded](https://raw.githubusercontent.com/dxstiny/ue4-tutorials/main/github-ressources/tower-defence/aiBeginPlay.png)
