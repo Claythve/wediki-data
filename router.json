@@ -43,6 +43,11 @@
                 "name": "String Formatting",
                 "data": "wiki/string-formatting",
                 "icon": "icon-caps-small"
+            },
+            {
+                "name": "CSS",
+                "data": "CSS",
+                "icon": "icon-book-bookmark"
             }
         ]
     }
