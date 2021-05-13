@@ -63,6 +63,11 @@
                 "name": "Character naming",
                 "data": "wiki/character-naming",
                 "icon": "icon-book-bookmark"
+            },
+            {
+                "name": "HTTP Response Codes",
+                "data": "wiki/http-status-codes",
+                "icon": "icon-book-bookmark"
             }
         ]
     }
