@@ -2,12 +2,12 @@
 # Hotkeys / Shortcuts
 <details>
 <summary>Chromium based browsers</summary>
-$T$ChromiumHotkeys
+$T$Chromium Hotkeys
 </details>
 
 <details>
-<summary>Chromium based browsers</summary>
-$T$WindowsHotkeys
+<summary>Windows</summary>
+$T$Windows Hotkeys
 </details>
 </md>
 
@@ -16,7 +16,7 @@ const tableColumns = ["hotkey", "function"];
 
 tables = [
     {
-        title: "ChromiumHotkeys",
+        title: "Chromium Hotkeys",
         columns: [...tableColumns],
         data: [{
             hotkey: "[CTRL] + *Number*",
@@ -32,7 +32,7 @@ tables = [
             function: "Close Tab"
         }]
     },{
-        title: "WindowsHotkeys",
+        title: "Windows Hotkeys",
         columns: [...tableColumns],
         data: [{
             hotkey: "[WIN] + *Number*",
