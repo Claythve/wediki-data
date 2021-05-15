@@ -88,9 +88,9 @@ tables = [
         title: "Table1",
         columns: [...tableColumns],
         data: [{
-            directive: "%a",
-            meaning: "Abbreviated weekday name.",
-            example: "Sun, Mon, ..."
+            directive: "[%a](https://google.com/)",
+            meaning: "$INFO$Abbreviated weekday name.",
+            example: "Sun, `Mon`, ..."
         }]
     }
 ]
