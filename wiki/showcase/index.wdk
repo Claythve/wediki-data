@@ -9,6 +9,8 @@ Normal paragraphs are also supported
 
 `one line code snippets`
 
+<button onclick="alert('HTML works here too :)')">Buttons!</button>
+
 ```csharp
 using System;
 
