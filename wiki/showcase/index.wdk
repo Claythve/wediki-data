@@ -11,6 +11,12 @@ Normal paragraphs are also supported
 
 <button onclick="alert('HTML works here too :)')">Buttons!</button>
 
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
 ```csharp
 using System;
 
