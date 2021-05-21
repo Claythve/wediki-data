@@ -10,11 +10,14 @@ Normal paragraphs are also supported
 `one line code snippets`
 
 <button onclick="alert('HTML works here too :)')">Buttons!</button>
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
+
+- Coffee
+- Tea
+- Milk
+
+1. Coffee
+2. Tea
+3. Milk
  
 ```csharp
 using System;
