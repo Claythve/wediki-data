@@ -53,9 +53,10 @@ request.sync.get.json('https://jsonplaceholder.typicode.com/todos/1'); // synchr
 Currently hardcoded to Formulas and Wiki, subitems are fully customisable and dynamic.
 Icon is optional, and can be set to either:
 
-1. any of the [creative-tim x nucleoApp icons](https://demos.creative-tim.com/vue-black-dashboard/#/icons) e.g. icon-atom
-2. any svg (note: must still be a valid json object, i.e. replace " with ') e.g. from [google](https://fonts.google.com/icons/) or [HeroIcons](https://heroicons.dev/) (you might need to set fill="white" in some paths)
-3. select presets are available:
+1. any of the [creative-tim x nucleoApp icons](https://demos.creative-tim.com/vue-black-dashboard/#/icons) e.g. `icon-atom`
+2. any of the [free Font Awesome icons](https://fontawesome.com/icons?m=free) e.g. `far fa-keyboard`
+3. any svg (note: must still be a valid json object, i.e. replace " with ') e.g. from [google](https://fonts.google.com/icons/) or [HeroIcons](https://heroicons.dev/) (you might need to set fill="white" in some paths)
+4. select presets are available:
    1. $HOME
    2. $CODE
    3. $FORMULA | $MATHS | $MATH
@@ -81,7 +82,7 @@ Icon is optional, and can be set to either:
    23. $MERGE
    24. $LINK
    25. $SYNC | $SYNCHRONISE | $SYNCHRONIZE | $RELOAD | $REFRESH
-4. if the icon key is not described (null or undefined), "icon-atom" is taken by default
+5. if the icon key is not described (null or undefined), `icon-atom` is taken by default
 
 ## License
     <one line to give the program's name and a brief idea of what it does.>
