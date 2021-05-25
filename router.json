@@ -55,7 +55,7 @@
       {
         "name": "Hotkeys / Shortcuts",
         "data": "wiki/hotkeys-shortcuts",
-        "icon": "icon-laptop"
+        "icon": "far fa-keyboard"
       },
       {
         "name": "HTTP Status Codes",
@@ -80,7 +80,7 @@
       {
         "name": "Useful Software",
         "data": "wiki/useful-software",
-        "icon": "icon-laptop"
+        "icon": "fas fa-laptop-code"
       }
     ]
   }
