@@ -1,6 +1,11 @@
-# wediki: data
+# wediki-data
 
-## wediki (*.wdk) files
+## Installation
+#### wediki-data
+1. Download the latest version: [https://github.com/Claythve/wediki-data](https://github.com/Claythve/wediki-data)
+	
+## Usage
+### wediki (*.wdk) files
 md defines the start of a markdown segment. It makes up the skeleton of the page. In the markdown segment you define the structure in normal markdown manner
 
 /md defines the end of a markdown segment
@@ -9,15 +14,15 @@ js defines the start of a javascript segment. In here you can either run simple 
 
 /js defines the end of a javascript segment
 
-#### Syntax-Highlighted (Coloured) Multi-Line Code-Blocks
+##### Syntax-Highlighted (Coloured) Multi-Line Code-Blocks
 [shiki languages](https://github.com/shikijs/shiki/blob/master/docs/languages.md) apply in a normal markdown way, e.g.
 
 ```csharp
 ```csharp // will highlight the block as shiki would highlight C# code
 ```
 
-### Special Rules
-#### Tables
+#### Special Rules
+##### Tables
 Placeholders:
 $T${TABLE_NAME}
 Population:
@@ -32,10 +37,10 @@ example table:
 }
 ```
 
-##### ASYNC
+###### ASYNC
 when using async operations (the "await"-operator), the "tables"-variable shan't be overwritten! Thus, instead of using `tables = [table1, table2]`, use something like `tables.push(table1); tables.push(table2);`
 
-### HTTP-Requests
+#### HTTP-Requests
 *custom headers / parameters are not supported in our wrappers, obviously you can do the requests yourself as well*
 
 If you want to execute http requests, then that's no problem!
@@ -49,7 +54,7 @@ request.sync.get.plain('https://jsonplaceholder.typicode.com/todos/1'); // synch
 request.sync.get.json('https://jsonplaceholder.typicode.com/todos/1'); // synchronously requests and returns as JSON object
 ```
 
-## router.json
+### router.json
 Currently hardcoded to Formulas and Wiki, subitems are fully customisable and dynamic.
 Icon is optional, and can be set to either:
 
@@ -85,7 +90,7 @@ Icon is optional, and can be set to either:
 5. if the icon key is not described (null or undefined), `icon-atom` is taken by default
 
 ## License
-    <one line to give the program's name and a brief idea of what it does.>
+    wediki-data
     Copyright (C) 2021  Claythve
 
     This program is free software: you can redistribute it and/or modify
