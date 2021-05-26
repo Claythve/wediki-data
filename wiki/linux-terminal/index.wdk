@@ -75,6 +75,14 @@ create new branch and switch to it
 
 switch to existing branch
 `git checkout [branchname]`
+
+## Patches
+
+create patch "filename.patch" of the latest n commits
+`git format-patch -n HEAD > filename.patch`
+
+apply
+`git apply filename.patch`
 </details>
 <details>
 <summary>Cheat Sheets</summary>
