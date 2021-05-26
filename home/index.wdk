@@ -4,7 +4,7 @@
 $T$Homework
 </md>
 <js>
-return request.async.get.json('https://eu-claythve.herokuapp.com/api/subjects').then(subjects => {
+return request.async.get.json('https://claythve.herokuapp.com/api/subjects').then(subjects => {
     let data = [];
 
     for (let subject of subjects) {
