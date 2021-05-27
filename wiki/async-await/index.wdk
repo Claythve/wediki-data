@@ -13,7 +13,7 @@ A task can run simultaneously with other tasks.
 
 $INFO$The main purpose of async / await is to run multiple functions (tasks) simultaneously in one thread.
 $WARN$Depending on the language (e.g. C#) and implementation they can run in several threads at the same time. This has a big disadvantage, because variables may not be accessible from other threads.
-
+ 
 ## Examples
 <details>
 <summary>Python</summary>
@@ -75,28 +75,12 @@ class Paasocket(object):
 
 </details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <details>
 <summary>Virtual functions</summary>
 https://stackoverflow.com/a/2392656
 $INFO$works like a placeholder, do this function when nothing else specified
 </details>
-
-
-
+ 
 ## Pointer
 <details>
 <summary>modifying pointer target within a function</summary>
@@ -111,7 +95,7 @@ void getVariable(int *& ptr)
 ```
 
 </details>
-
+ 
 ## sizeof not working
 https://stackoverflow.com/a/4772754
 </md>
