@@ -33,6 +33,20 @@ namespace ShowCase
   }
 }
 ```
+
+## And since Java just won't go, we implemented it as well!
+```java
+class ShowCase {
+    public static void main(String[] args) {
+        if (true) {
+         System.out.println("and even crippled code");
+        } else {
+         System.out.println("will be decrippled automatically!");
+        }
+    }
+}
+```
+
 links get automatically highlighted: https://wediki.herokuapp.com/#/wiki/showcase
 So do [Hyperlinks](https://google.com/)
 ## Images
