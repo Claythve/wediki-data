@@ -1,0 +1,25 @@
+<md>
+# VIM
+## How to quit
+#### Exit without having changed anything
+`:q`
+#### Exit and discard changes
+`:q!`
+#### Exit and save changes
+`:wq`
+if that doesn't work, hit escape a few times and try above steps again
+## Navigation
+### Search
+jump with `n` and `N`
+#### Top To Bottom
+`/{query}`
+#### Bottom To Top
+`?{query}`
+### Jumping
+#### To Line End
+`$`
+#### To Line Start
+`^`
+## Editing
+`i`
+</md>
