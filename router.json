@@ -81,6 +81,11 @@
         "name": "Useful Software",
         "data": "wiki/useful-software",
         "icon": "fas fa-laptop-code"
+      },
+      {
+        "name": "VIM",
+        "data": "wiki/vim",
+        "icon": "$TERMINAL"
       }
     ]
   }
