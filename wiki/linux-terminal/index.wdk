@@ -79,7 +79,7 @@ switch to existing branch
 ## Patches
 
 create patch "filename.patch" of the latest n commits
-`git format-patch -n HEAD > filename.patch`
+`git format-patch -n HEAD --stdout > filename.patch`
 
 apply
 `git apply filename.patch`
