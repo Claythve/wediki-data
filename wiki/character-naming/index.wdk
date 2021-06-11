@@ -1,13 +1,12 @@
 <md>
-# Example Character Naming
-$T$Table1
+$T$Example Character Naming
 </md>
 <js>
 const tableColumns = ["name", "meaning"];
 
 tables = [
     {
-        title: "Table1",
+        title: "Example Character Naming",
         columns: [...tableColumns],
         data: [{
             name: "Alice and Bob",
