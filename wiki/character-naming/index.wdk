@@ -1,4 +1,93 @@
 <md>
-# Example Character Naming
-https://en.wikipedia.org/wiki/Alice_and_Bob#Cast_of_characters
+$T$Example Character Naming
+Source: https://en.wikipedia.org/wiki/Alice_and_Bob#Cast_of_characters
 </md>
+<js>
+const tableColumns = ["name", "meaning"];
+
+tables = [
+    {
+        title: "Example Character Naming",
+        columns: [...tableColumns],
+        data: [{
+            name: "Alice and Bob",
+            meaning: "The original, generic characters. Generally, Alice and Bob want to exchange a message or cryptographic key."
+        }, {
+        	name: "Carol, Carlos or Charlie",
+            meaning: "A generic third participant."
+        }, {
+        	name: "Chuck",
+            meaning: "A third participant, usually of malicious intent."
+        }, {
+        	name: "Craig",
+            meaning: "A password cracker, often encountered in situations with stored passwords."
+        }, {
+        	name: "Dan, Dave or David",
+            meaning: "A generic fourth participant."
+        }, {
+        	name: "Erin",
+            meaning: "A generic fifth participant, but rarely used, as 'E' is usually reserved for Eve."
+        }, {
+        	name: "Eve or Yves",
+            meaning: "An eavesdropper, who is usually a passive attacker. While they can listen in on messages between Alice and Bob, they cannot modify them. In quantum cryptography, Eve may also represent the environment."
+        }, {
+        	name: "Faythe",
+            meaning: "A trusted advisor, courier or intermediary. Faythe is used infrequently, and is associated with faith and faithfulness. Faythe may be a repository of key service or courier of shared secrets."
+        }, {
+        	name: "Frank",
+            meaning: "A generic sixth participant."
+        }, {
+        	name: "Grace",
+            meaning: "A government representative. For example, Grace may try to force Alice or Bob to implement backdoors in their protocols. Grace may also deliberately weaken standards."
+        }, {
+        	name: "Heidi",
+            meaning: "A mischievous designer for cryptographic standards, but rarely used."
+        }, {
+        	name: "Ivan",
+            meaning: "An issuer."
+        }, {
+        	name: "Judy",
+            meaning: "A judge who may be called upon to resolve a potential dispute between participants."
+        }, {
+        	name: "Mallory or (less commonly) Mallet or Darth",
+            meaning: "A malicious attacker. Associated with Trudy, an intruder. Unlike the passive Eve, Mallory is an active attacker (often used in man-in-the-middle attacks), who can modify messages, substitute messages, or replay old messages. The difficulty of securing a system against Mallory is much greater than against Eve."
+        }, {
+        	name: "Michael or Mike",
+            meaning: "Used as an alternative to the eavesdropper Eve."
+        }, {
+        	name: "Niaj",
+            meaning: "Used as an alternative to the eavesdropper Eve."
+        }, {
+        	name: "Olivia",
+            meaning: "An oracle, who provides external data to smart contracts residing on distributed ledger (commonly referred to as blockchain) systems."
+        }, {
+        	name: "Oscar",
+            meaning: "An opponent, similar to Mallory, but not necessarily malicious."
+        }, {
+        	name: "Peggy or Pat",
+            meaning: "A prover, who interacts with the verifier to show that the intended transaction has actually taken place. Peggy is often found in zero-knowledge proofs."
+        }, {
+        	name: "Rupert",
+            meaning: "A repudiator who appears for interactions that desire non-repudiation."
+        }, {
+        	name: "Sybil",
+            meaning: "A pseudonymous attacker, who usually uses a large number of identities. For example, Sybil may attempt to subvert a reputation system."
+        }, {
+        	name: "Trent or Ted",
+            meaning: "A trusted arbitrator, who acts as a neutral third party."
+        }, {
+        	name: "Trudy",
+            meaning: "An intruder."
+        }, {
+        	name: "Victor or Vanna",
+            meaning: "A verifier, who requires proof from the prover."
+        }, {
+        	name: "Walter",
+            meaning: "A warden, who may guard Alice and Bob."
+        }, {
+        	name: "Wendy",
+            meaning: "A whistleblower, who is an insider with privileged access capable of divulging information."
+        }]
+    }
+]
+</js> 
