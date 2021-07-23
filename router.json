@@ -28,6 +28,11 @@
         "icon": "icon-bulb-63"
       },
       {
+        "name": "Amazing Colours",
+        "data": "wiki/amazing-colours",
+        "icon": "fas fa-palette"
+      },
+      {
         "name": "Async & Await",
         "data": "wiki/async-await",
         "icon": "$CODE"
