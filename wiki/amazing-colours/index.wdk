@@ -18,12 +18,23 @@ Link: #ba54f5
 
 ## Palette 3 "Dark Plus"
 Background: #1e1e1e
-using: #C586C0
-types: #4EC9B0
-keywords: #569CD6
-functions: #DCDCAA
-objects: #9CDCFE
-strings: #CE9178
-comments: #6A9955
-else: #D4D4D4
+Using: #C586C0
+Types: #4EC9B0
+Keywords: #569CD6
+Functions: #DCDCAA
+Global: #9CDCFE
+Strings: #CE9178
+Numbers: #b5cea8
+Comments: #6A9955
+Else: #D4D4D4
+
+## Palette 4 "One Dark"
+Background: #282c34
+Types: #61afef
+Keywords: #c678dd
+Functions: #61afef
+Strings: #98c379
+Numbers: #d19a66
+Comments: #5c6370
+Else: #abb2bf
 </md>
