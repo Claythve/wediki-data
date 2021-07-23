@@ -1,8 +1,29 @@
 <md>
+## Palette 1 "PORT"
 Background: #1e1e1e
 Neutral: #374148
 Success: #00c48b
 Fail: #e85454
 Warning: #c7aa19
 Info: #189de4
+
+## Palette 2 "Wediki"
+Background: #1e1e2f
+Neutral: #525f7f
+Success: #00f2c3
+Fail: #fd5d93
+Warning: #ff8d72
+Info: #1d8cf8!
+Link: #ba54f5
+
+## Palette 3 "Dark Plus"
+Background: #1e1e1e
+using: #C586C0
+types: #4EC9B0
+keywords: #569CD6
+functions: #DCDCAA
+objects: #9CDCFE
+strings: #CE9178
+comments: #6A9955
+else: #D4D4D4
 </md>
