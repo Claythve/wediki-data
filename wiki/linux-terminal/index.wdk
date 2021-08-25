@@ -40,7 +40,6 @@ link empty remote repository and local existing repository
 `git remote add origin [url]`
 
 check status
-
 `git status`
 
 add files to git
@@ -83,6 +82,19 @@ create patch "filename.patch" of the latest n commits
 
 apply
 `git apply filename.patch`
+
+## I messed up my commit
+
+add new changes to the latest commit
+`git add newFile.*`
+`git commit --amend --no-edit`
+
+change message of latest commit
+`git commit --amend -m "new commit message"`
+
+and if necessary force update on remote branch
+`git push [remote] [branch] -f`
+
 </details>
 <details>
 <summary>Cheat Sheets</summary>
