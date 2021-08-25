@@ -1,6 +1,9 @@
 # wediki-data
 
 ## Installation
+#### see the data beautifully formatted
+https://wediki.herokuapp.com/
+
 #### wediki-data
 1. Download the latest version: [https://github.com/Claythve/wediki-data](https://github.com/Claythve/wediki-data)
 	
