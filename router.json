@@ -88,6 +88,11 @@
         "icon": "fas fa-laptop-code"
       },
       {
+        "name": "Certificates",
+        "data": "wiki/certificates",
+        "icon": "fas fa-file-certificate""
+      },
+      {
         "name": "VIM",
         "data": "wiki/vim",
         "icon": "$TERMINAL"
