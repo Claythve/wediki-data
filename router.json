@@ -90,7 +90,7 @@
       {
         "name": "Certificates",
         "data": "wiki/certificates",
-        "icon": "fas fa-file-certificate""
+        "icon": "fas fa-file-certificate"
       },
       {
         "name": "VIM",
