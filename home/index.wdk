@@ -1,10 +1,10 @@
 <md>
 # Home
-## Homework
 $T$Homework
 </md>
+
 <js>
-return request.async.get.json('https://claythve.herokuapp.com/api/subjects').then(subjects => {
+return request.async.get.json('https://nulldisk.herokuapp.com/api/subjects').then(subjects => {
     let data = [];
 
     for (let subject of subjects) {

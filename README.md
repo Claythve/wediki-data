@@ -1,23 +1,23 @@
 # wediki-data
 
+Data for <https://wediki.herokuapp.com>
+
 ## Installation
-#### see the data beautifully formatted
-https://wediki.herokuapp.com/
 
-#### wediki-data
-1. Download the latest version: [https://github.com/Claythve/wediki-data](https://github.com/Claythve/wediki-data)
-	
+### Requirements
+
 ## Usage
-### wediki (*.wdk) files
-md defines the start of a markdown segment. It makes up the skeleton of the page. In the markdown segment you define the structure in normal markdown manner
 
-/md defines the end of a markdown segment
+### wediki files (*.wdk)
 
-js defines the start of a javascript segment. In here you can either run simple javascript commands (such as alerts, confirms, prompts), but also define (populate) the tables you are refering to from the markdown segment. Special Rules apply here.
+`<md>` defines the start of a markdown segment. It makes up the skeleton of the page. In the markdown segment you define the structure in normal markdown manner
+`</md>` defines the end of a markdown segment
 
-/js defines the end of a javascript segment
+`<js>` defines the start of a javascript segment. In here you can either run simple javascript commands (such as alerts, confirms, prompts), but also define (populate) the tables you are refering to from the markdown segment. Special Rules apply here.
+`</js>` defines the end of a javascript segment
 
-##### Syntax-Highlighted (Coloured) Multi-Line Code-Blocks
+#### Syntax-Highlighted (Coloured) Multi-Line Code-Blocks
+
 [shiki languages](https://github.com/shikijs/shiki/blob/master/docs/languages.md) apply in a normal markdown way, e.g.
 
 ```csharp
@@ -25,9 +25,12 @@ js defines the start of a javascript segment. In here you can either run simple 
 ```
 
 #### Special Rules
+
 ##### Tables
+
 Placeholders:
 $T${TABLE_NAME}
+
 Population:
 simply write to the "tables" variable (DO NOT INITIALISE / DECLARE IT! It is being set for the code already)
 example table:
@@ -41,9 +44,11 @@ example table:
 ```
 
 ###### ASYNC
+
 when using async operations (the "await"-operator), the "tables"-variable shan't be overwritten! Thus, instead of using `tables = [table1, table2]`, use something like `tables.push(table1); tables.push(table2);`
 
 #### HTTP-Requests
+
 *custom headers / parameters are not supported in our wrappers, obviously you can do the requests yourself as well*
 
 If you want to execute http requests, then that's no problem!
@@ -58,6 +63,7 @@ request.sync.get.json('https://jsonplaceholder.typicode.com/todos/1'); // synchr
 ```
 
 ### router.json
+
 Currently hardcoded to Formulas and Wiki, subitems are fully customisable and dynamic.
 Icon is optional, and can be set to either:
 
@@ -92,19 +98,35 @@ Icon is optional, and can be set to either:
    25. $SYNC | $SYNCHRONISE | $SYNCHRONIZE | $RELOAD | $REFRESH
 5. if the icon key is not described (null or undefined), `icon-atom` is taken by default
 
+## Support
+
+Create an issue on GitHub: <https://github.com/llnulldisk/wediki-data/issues>
+
+## Roadmap
+
+## Contributing
+
+## Authors and acknowledgment
+
+- [dxstiny](https://github.com/dxstiny)
+- [llnulldisk](https://github.com/llnulldisk)
+
 ## License
-    wediki-data
-    Copyright (C) 2021  Claythve
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU Affero General Public License as published
-    by the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+```text
+claythve.rf.gd
+Copyright (C) 2022  llnulldisk
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU Affero General Public License for more details.
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    You should have received a copy of the GNU Affero General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
