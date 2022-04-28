@@ -10,7 +10,7 @@ return request.async.get.json('https://nulldisk.herokuapp.com/api/subjects').the
     for (let subject of subjects) {
         let d = {};
         d.subject = subject.name;
-        d.homework = subject.homework.map(x => x.description).join(",");
+        d.homework = subject.homework.map(x => x.description).join(", ");
         data.push(d);
     }
     tables.push({

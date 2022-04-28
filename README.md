@@ -114,7 +114,7 @@ Create an issue on GitHub: <https://github.com/llnulldisk/wediki-data/issues>
 ## License
 
 ```text
-claythve.rf.gd
+wediki-data
 Copyright (C) 2022  llnulldisk
 
 This program is free software: you can redistribute it and/or modify
